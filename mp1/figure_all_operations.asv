@@ -62,3 +62,11 @@ annotation(figure1,'textarrow',[0.709966216216215 0.673257726129203],...
     [0.550000000000001 0.588053553038106],'TextColor',[0 1 0],...
     'String',{'Projection'});
 
+% Manually add an output argument to the annotation function call
+% For example, h = annotation(...)
+set(figure1,'textarrow',[0.2404 0.2959],'Y',[0.4049 0.4594],'String','Rotation')
+set(figure1,'textarrow',[0.2837 0.3307],'Y',[0.2361 0.2732],'String','Reflection')
+set(figure1,'textarrow',[0.7571 0.7032],'Y',[0.8214 0.7631],'String','Original')
+set(figure1,'textarrow',[0.7118 0.675],'Y',[0.5952 0.6333],'String','Projection')
+
+
